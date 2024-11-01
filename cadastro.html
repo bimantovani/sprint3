@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cadastro de Livros </title>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Livros da biblioteca do guizansa</h1>
+        <form action="cadastro.php" method="post">
+           
+                <fieldset>
+                <label>Título:</label>
+                <input type="text"  name="nome" required> <br> <br>
+          
+                <label>Autor:</label>
+                <input type="text"  name="autor" required><br> <br>
+           
+                <label>Ano de Publicação:</label>
+                <input type="number" name="ano_publicacao" required><br> <br>
+
+                <label>ISBN:</label>
+                <input type="text"  name="isbn" required><br> <br>
+
+                <label> Classificação</label>:</label>
+                <input type="number" name="classificacao" required><br> <br>
+
+                <label>Estoque</label>
+                <input type="number"  name="estoque" required><br> <br>
+
+                <label>Editora</label>
+                <input type="text"  name="editora" required><br> <br>
+
+                <label>Genero</label>
+                <input type="text"  name="genero" required><br> <br>
+
+                <label> Enredo</label> <br> <br>
+                <textarea> </textarea> <br> <br>
+            
+                <button type="submit"> Cadastrar LIVRO</button>
+                  </form>
+    </div>
+</body>
+</html>

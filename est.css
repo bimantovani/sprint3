@@ -1,0 +1,21 @@
+*{
+   margin: 0%;
+}
+
+table {
+   margin: 3px 0;
+}
+
+th, td {
+   padding: 12px;
+   text-align: left;
+}
+
+th {
+   background-color: #3a4597; 
+   color: white;
+}
+
+h1{
+   color: #3a4597;
+}

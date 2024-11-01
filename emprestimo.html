@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cadastro do emprestimo</title>
+</head>
+<body>
+    <h1>Cadastro de Empréstimo</h1>
+    <form action="emprestimo.php" method="post">
+        <fieldset>
+            <legend><strong>Dados do Empréstimo</strong></legend>
+            <label>Nome do Livro</label>
+            <input type="text" name="nome" required><br><br>
+            <label>Data de Empréstimo</label>
+            <input type="date" name="data_emprestimo" required><br><br>
+            <label>Data de Devoluçao</label>
+            <input type="date" name="devolucao"required><br><br>
+            <label>Código do cliente</label>
+            <input type="number" name="id_cliente" required><br><br>
+            <label>Funcionário</label>
+            <input type="text" name="id_funcionario" required><br><br>
+            <label>ISBN</label>
+            <input type="text" name="isbn" required><br><br>
+        <button type="submit"> Enviar </button> <br> 
+        
+    </fieldset>
+    </form>
+</body>
+</html>
